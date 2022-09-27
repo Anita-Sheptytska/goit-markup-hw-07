@@ -22,35 +22,41 @@
     <!--Header-->
 
     <header class="header">
-        <div class="container header-container">
-
+        <div class="header__container container">
+    
             <!--Logo-->
-
-            <a href="/index.html" class="link-logo" lang="en"><span class="logo-web">Web</span>Studio</a>
+    
+            <a href="/index.html" class="header__logo logo" lang="en"><span class="header__logo--black">Web</span>Studio</a>
 
             <!--Navigation-->
 
-            <nav class="main-nav">
-                <ul class="list list-nav">
-                    <li class="list-item"><a class="link" href="index.html">Студія</a></li>
-                    <li class="list-item"><a class="link portfolio" href="portfolio.html">Портфоліо</a></li>
-                    <li class="list-item"><a class="link" href="">Контакти</a></li>
+            <nav class="nav">
+                <ul class="nav__list list ">
+                    <li class="nav__item">
+                        <a class="nav__link  link" href="index.html">Студія</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link nav__link--portfolio link" href="portfolio.html">Портфоліо</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link link" href="">Контакти</a>
+                    </li>
                 </ul>
             </nav>
 
             <!--Contact-->
 
-                    <ul class="list list-contact">
-                        <li class="list-contacts-mail">
-                            <a class="link mail" href="mailto:info@devstudio.com">
-                                <svg class="icon" width="16" height="12">
+                    <ul class="contact list">
+                        <li class="mail">
+                            <a class="mail__link link" href="mailto:info@devstudio.com">
+                                <svg class="mail__icon" width="16" height="12">
                                     <use href="./images/icons.svg#icon-mail"></use>
                                 </svg>
                                 info@devstudio.com</a>
                         </li>
-                        <li class="list-contacts-tel">
-                            <a class="link tel" href="tel:+380961111111">
-                                <svg class="icon" width="10" height="16">
+                        <li class="tel">
+                            <a class="tel__link link" href="tel:+380961111111">
+                                <svg class="tel__icon" width="10" height="16">
                                     <use href="./images/icons.svg#icon-tel"></use>
                                 </svg>
                                 +38 096 111 11 11</a>
@@ -246,85 +252,88 @@
             </section>
         </main>
 
-<!--Footer-->
-
-<footer class="footer">
-    <div class="container footer-container">
-
-        <!--Logo-->
-        <div>
-            <a class="link-logo logo-footer" href="/index.html" lang="en"><span class="logo-web">Web</span><span
-                    class="logo-studio">Studio</span></a>
-
-            <!--Contact-->
-
-            <address class="address">
-                <p class="address-location">м. Київ, пр-т Лесі Українки, 26</p>
-                <ul class="list address-list">
-                    <li class="address-item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li class="address-item"><a class="link tel" href="tel:+380961111111">+38 096 111 11 11</a>
-                    </li>
-                </ul>
-            </address>
-        </div>
-
-        <!-- Social links -->
-
-        <div class="footer-social">
-            <h3 class="footer-title">ПРИЄДНУЙТЕСЬ</h3>
-            <ul class="footer-list">
-                <li class="footer-item">
-                    <a class="footer-social-link link" href="https://www.instagram.com/">
-                        <svg class="icon" width="20" height="20">
-                            <use href="./images/icons.svg#icon-instagram">
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-item">
-                    <a class="footer-social-link link" href="https://www.twitter.com/">
-                        <svg class="icon" width="20" height="20">
-                            <use href="./images/icons.svg#icon-twitter">
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-item">
-                    <a class="footer-social-link link" href="https://www.facebook.com/">
-                        <svg class="icon" width="20" height="20">
-                            <use href="./images/icons.svg#icon-facebook">
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-item">
-                    <a class="footer-social-link link" href="https://www.linkedin.com/">
-                        <svg class="icon" width="20" height="20">
-                            <use href="./images/icons.svg#icon-linkedin">
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Sending form -->
-
-        <div class="footer-sending">
-            <form class="sending-form" name="sending-form" autocomplete="off" novalidate></form>
-            <h3 class="sending-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
-            <label class="sending-form-email">
-                <input class="sending-form-input" type="email" name="email" required placeholder="E-mail">
-                <button class="sending-form-btn" type="submit">
-                    ПІДПИСАТИСЯ
-                    <svg class="sending-form-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-send"></use>
-                    </svg>
-                </button>
-        </div>
-    </div>
-</footer>
+        <!--Footer-->
+        
+        <footer class="footer">
+            <div class="footer__container container ">
+        
+                <!--Logo-->
+                <div>
+                    <a class="footer__logo logo" href="/index.html" lang="en"><span>Web</span><span
+                            class="footer__logo--white">Studio</span></a>
+        
+                    <!--Contact-->
+        
+                    <address class="address">
+                        <p class="address__location">м. Київ, пр-т Лесі Українки, 26</p>
+                        <ul class="address__list list ">
+                            <li class="address__item"><a class="address__link link"
+                                    href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                            <li class="address__item"><a class="address__link link" href="tel:+380961111111">+38 096 111 11
+                                    11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+        
+                <!-- Join -->
+        
+                <div class="join">
+                    <h3 class="join__title">ПРИЄДНУЙТЕСЬ</h3>
+                    <ul class="join__list list">
+                        <li class="join__item">
+                            <a class="join__link link" href="https://www.instagram.com/">
+                                <svg class="join__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-instagram">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="join__item">
+                            <a class="join__link link" href="https://www.twitter.com/">
+                                <svg class="join__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-twitter">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="join__item">
+                            <a class="join__link link" href="https://www.facebook.com/">
+                                <svg class="join__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-facebook">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="join__item">
+                            <a class="join__link link" href="https://www.linkedin.com/">
+                                <svg class="join__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-linkedin">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <!-- Sending form -->
+        
+                <div class="send">
+                    <form class="send__form" name="sending-form" autocomplete="off" novalidate></form>
+                    <h3 class="send__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+                    <label class="send__email">
+                        <input class="send__input" type="email" name="email" required placeholder="E-mail">
+                        <button class="send__button" type="submit">
+                            ПІДПИСАТИСЯ
+                            <svg class="send__icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </label>
+                </div>
+            </div>
+        </footer>
         </body>
         
         </html>
