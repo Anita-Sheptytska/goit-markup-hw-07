@@ -1,0 +1,14 @@
+.page {
+    font-family: var(--main-font);
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+    font-size: 14px;
+    margin: 0;
+    width: 1600 px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
