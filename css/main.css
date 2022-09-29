@@ -638,6 +638,7 @@ ul {
 }
 
 .send__title {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
