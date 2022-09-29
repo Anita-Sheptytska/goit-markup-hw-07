@@ -975,22 +975,23 @@ ul {
     gap: 7px;
 }
 
-.modal__checkbox:checked+.modal__icon--checked {
+.modal__checkbox:checked + .modal__icons .modal__use--checked {
     opacity: 1;
 }
 
-.modal__checkbox:unchecked+.modal__icon--unchecked {
+.modal__checkbox:unchecked + .modal__icons .modal__use--unchecked {
     opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__icon--checked {
+.modal__use--checked {
     opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__icon--unchecked {
+.modal__use--unchecked {
     opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__btn {
