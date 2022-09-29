@@ -1,0 +1,38 @@
+.contact {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+    padding-top: 32px 0;
+}
+
+.mail,
+.tel {
+    color: var(--dark-txt-cl);
+}
+
+.tel__link {
+    display: flex;
+    align-items: center;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-txt-cl);
+    }
+}
+
+.mail__link {
+    display: flex;
+    align-items: center;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-txt-cl);
+    }
+}
+
+.mail__icon,
+.tel__icon {
+    margin-right: 10px;
+    fill: currentColor;
+    text-decoration: none;
+}

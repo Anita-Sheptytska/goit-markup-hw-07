@@ -26,7 +26,7 @@
 
 /*INDEX.HTML*/
 
-.page {
+/* .page {
     font-family:var(--main-font);
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -34,8 +34,8 @@
     font-size: 14px;
     margin: 0;
     width: 1600 px;
-}
-
+} */
+/* 
 .link {
     text-decoration: none;
     color: currentColor;
@@ -46,24 +46,24 @@
     list-style: none;
     margin: 0;
     padding: 0;
-} 
+}  */
 
-.container {
+/* .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-} 
+}  */
 
-.section {
+/* .section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
 /* Reset */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -77,9 +77,9 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -90,11 +90,11 @@ ul {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-} 
+}  */
 
 /*Header*/
 
-.header {
+/* .header {
     padding-top: 24px;
     padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
@@ -103,11 +103,11 @@ ul {
 .header__container {
     align-items: center;
     display: flex;
-}
+} */
 
 /* Logo */
 
-.logo {
+/* .logo {
     color: currentColor;
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -124,11 +124,11 @@ ul {
 
 .header__logo--black {
     color: var(--accent-txt-cl);
-}
+} */
 
 /* Navigation */
 
-.nav__list {
+/* .nav__list {
     display: flex;
     gap: 50px;
     padding-top: 32px 0;
@@ -190,11 +190,11 @@ ul {
     opacity: 1;
     bottom: -34px;
     transition: opacity 250ms var(--timing-function);
-}
+} */
 
 /* Contacts */
 
-.contact {
+/* .contact {
     display: flex;
     gap: 50px;
     margin-left: auto;
@@ -227,10 +227,10 @@ ul {
     margin-right: 10px;
     fill: currentColor;
     text-decoration: none;
-}
+} */
 
 /*Hero*/
-
+/* 
 .hero {
     text-align: center;
     padding: 200px 0;
@@ -278,11 +278,11 @@ ul {
     padding: 10px 32px;
     border: none;
     border-radius: 4px;
-}
+} */
 
 /*Features*/
 
-.features {
+/* .features {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -321,11 +321,11 @@ ul {
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
-}
+} */
 
 /*Projects*/
 
-.projects {
+/* .projects {
     padding-bottom: 94px;
 }
 
@@ -365,11 +365,11 @@ ul {
 
     color: var(--light-txt-cl);
     background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /*Team*/
 
-.team {
+/* .team {
     
     padding-top: 94px;
     padding-bottom: 94px;
@@ -418,8 +418,10 @@ ul {
 .team__item {
     background-color: var(--light-txt-cl);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+} */
 
+/* Network */
+/* 
 .network {
     display: flex;
     justify-content: center;
@@ -454,10 +456,10 @@ ul {
     fill: #ffffff;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /*Сlients*/
-
+/* 
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -513,11 +515,11 @@ ul {
 .clients__link:hover .clients__icon,
 .clients__link:focus .clients__icon {
     fill: var(--accent-bg-cl); 
-}
+} */
 
 /* Footer*/
 
-.footer {
+/* .footer {
     background-color: var(--main-bg-cl);
     padding-bottom: 60px;
     padding-top: 60px;
@@ -526,11 +528,11 @@ ul {
 .footer__container {
     display: flex;
     align-items: baseline;
-}
+} */
 
 /* Logo */
 
-.footer__logo {
+/* .footer__logo {
     display: block;
     margin-bottom: 20px;
     color: var(--accent-txt-cl);
@@ -538,11 +540,11 @@ ul {
 
 .footer__logo--white {
     color: var(--light-txt-cl);
-}
+} */
 
 /* Address */
 
-.address {
+/* .address {
     font-style: normal;
 }
 
@@ -567,19 +569,13 @@ ul {
 .address__link:hover,
 .address__link:focus {
     color: var(--accent-txt-cl);
-}
-
-
-
-
+} */
 
 /* Join */
 
-.join {
+/* .join {
     margin-left: 70px;
 }
-
-
 
 .join__title {
     font-weight: 700;
@@ -615,11 +611,11 @@ ul {
 .join__icon{
     fill: var(--light-txt-cl);
     margin: 0;
-}
+} */
 
-/*Sending form*/
+/*Sending*/
 
-.send {
+/* .send {
     margin-left: 93px;
 }
 
@@ -684,28 +680,28 @@ ul {
 .send__icon {
     fill: var(--light-txt-cl);
     margin-left: 10px;
-}
+} */
 
 /*2.PORTFOLIO.HTML*/
 
-.main {
+/* .main {
     font-family: var(--main-font);
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
-}
+} */
 
 /*Filters*/
 
-.filters {
+/* .filters {
     display: flex;
     gap: 8px;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.filters__btn {
+.filters__button {
     font-family: inherit;
     cursor: pointer;
     font-weight: 500;
@@ -725,17 +721,17 @@ ul {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filters__btn:hover,
-.filters__btn:focus {
+.filters__button:hover,
+.filters__button:focus {
     background-color: var(--accent-bg-cl);
     color: var(--light-txt-cl);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
             0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 
 /*Portfolio*/
-
+/* 
 .portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -816,10 +812,10 @@ ul {
     letter-spacing: 0.03em;
     color: var(--light-txt-cl);
     width: 322px;
-}
+} */
 
 /*Modal window*/
-
+/* 
 .backdrop {
     position: fixed;
     top: 0;
@@ -842,8 +838,6 @@ ul {
     transform: scaleX(-100%);
 }
 
-/* Window */
-
 .modal {
     position: absolute;
     left: 50%;
@@ -859,7 +853,7 @@ ul {
     padding: 40px;
 }
 
-.modal__button {    
+.modal__btn {    
     position: absolute;
     width: 30px;
     height: 30px;
@@ -875,8 +869,8 @@ ul {
     padding: 0;
 }
 
-.modal__button:focus,
-.modal__button:hover {
+.modal__btn:focus,
+.modal__btn:hover {
     fill: var(--accent-bg-cl);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -994,7 +988,7 @@ ul {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__btn {
+.modal__button {
     display: block;
     margin: 0 auto;
     font-family: inherit;
@@ -1008,7 +1002,7 @@ ul {
     padding: 10px 52px;
     border: none;
     border-radius: 4px;
-}
+} */
 
 
 

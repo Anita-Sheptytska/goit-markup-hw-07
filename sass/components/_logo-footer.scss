@@ -1,0 +1,9 @@
+.footer__logo {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--accent-txt-cl);
+
+    &--white {
+        color: var(--light-txt-cl);
+    }
+}
